@@ -15,11 +15,11 @@ public class TugasSesi6 {
 
                 System.out.println("Buku ke-" + (i + 1));
                 System.out.print("Judul: ");
-                buku.judul = input.nextLine();
+                buku.judul = System.console().readLine();
                 System.out.print("Author: ");
-                buku.author = input.nextLine();
+                buku.author = System.console().readLine();
                 System.out.print("Penerbit: ");
-                buku.penerbit = input.nextLine();
+                buku.penerbit = System.console().readLine();
                 System.out.print("Kategori (1-Teknik, 2-Manajemen, 3-Fiksi, 4-Lainnya): ");
                 buku.kategori = input.nextInt();
                 System.out.print("Tahun: ");
