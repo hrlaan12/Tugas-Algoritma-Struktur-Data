@@ -5,7 +5,7 @@ public class TugasSesi6 {
         try (Scanner input = new Scanner(System.in)) {
             List<TugasSesi6> daftarBuku = new ArrayList<>();
             int jumlahBuku;
-
+            //Input Data
             System.out.print("Masukkan jumlah buku: ");
             jumlahBuku = input.nextInt();
             input.nextLine();
@@ -29,6 +29,7 @@ public class TugasSesi6 {
                 daftarBuku.add(buku);
             }
 
+            //Membuat Tabel
             System.out.println("=====================================================================================================");
             System.out.println("Daftar Buku Java yang Tersedia");
             System.out.println("=====================================================================================================");
@@ -42,6 +43,7 @@ public class TugasSesi6 {
 
             }
 
+            //Menjumlahkan Jumlah Buku 
             int bukuTeknik = 0;
             int bukuManajemen = 0;
             int bukuFiksi = 0;
@@ -76,6 +78,7 @@ public class TugasSesi6 {
                 }
             }
 
+            //Memanggil Data Penjumlahan
             System.out.println("=====================================================================================================");
             System.out.println("Jumlah buku yang tersedia: " + daftarBuku.size());
             System.out.println("Buku Teknik: " + bukuTeknik);
