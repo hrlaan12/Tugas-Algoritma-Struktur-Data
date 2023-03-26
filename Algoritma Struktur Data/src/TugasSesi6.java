@@ -87,11 +87,11 @@ public class TugasSesi6 {
         }
     }
     
-    private String judul;
-    private String author;
-    private String penerbit;
-    private int kategori;
-    private int tahun;
+    public String judul;
+    public String author;
+    public String penerbit;
+    public int kategori;
+    public int tahun;
     
     public String getJudul() {
         return judul;
