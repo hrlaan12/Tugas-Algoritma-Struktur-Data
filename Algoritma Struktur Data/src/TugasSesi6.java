@@ -33,7 +33,7 @@ public class TugasSesi6 {
             System.out.println("=====================================================================================================");
             System.out.println("Daftar Buku Java yang Tersedia");
             System.out.println("=====================================================================================================");
-            System.out.println("No  Judul                                Pengarang               Penerbit           Ketegori  Tahun");
+            System.out.println("No  Judul                       Pengarang               Penerbit           Ketegori  Tahun");
             System.out.println("=====================================================================================================");
 
             for (int i = 0; i < daftarBuku.size(); i++) {
