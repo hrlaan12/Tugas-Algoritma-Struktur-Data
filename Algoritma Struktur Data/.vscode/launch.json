@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Selamat",
+            "request": "launch",
+            "mainClass": "Selamat",
+            "projectName": "Algoritma Struktur Data_c9d26d63"
+        },
+        {
+            "type": "java",
+            "name": "Indomart",
+            "request": "launch",
+            "mainClass": "Indomart",
+            "projectName": "Algoritma Struktur Data_c9d26d63"
+        },
+        {
+            "type": "java",
+            "name": "Contoh",
+            "request": "launch",
+            "mainClass": "Contoh",
+            "projectName": "Algoritma Struktur Data_c9d26d63"
+        },
+        {
+            "type": "java",
+            "name": "Tes",
+            "request": "launch",
+            "mainClass": "Tes",
+            "projectName": "Algoritma Struktur Data_c9d26d63"
+        },
+        {
+            "type": "java",
             "name": "Main2",
             "request": "launch",
             "mainClass": "Main2",
